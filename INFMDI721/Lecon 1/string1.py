@@ -68,7 +68,7 @@ def mix_up(a, b):
   if len(a)<2 and len(b) <2:
     return a +', ' + b + ' -> ' + a + ' ' + b
   else:
-    return a +', ' + b + ' -> ' + b[0] + a[1:] + ' ' + a[0] + b[1:]
+    return a + ', ' + b + ' -> ' + b[:2] + a[2:] + ' ' + a[:2] + b[2:]
 
 
 # Provided simple test() function used in main() to print
