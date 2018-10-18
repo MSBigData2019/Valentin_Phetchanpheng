@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 url = "https://gist.github.com/paulmillr/2657075"
-token_code = '1108f6d9a6607122dcc98db2b926f3a98bacd858'
+token_code = '202eb8bcf3d701d5a0e0c865be9beb6b1a3bf488'
 head = {'Authorization': 'token {}'.format(token_code)}
 
 def get_list_user(url_page):
