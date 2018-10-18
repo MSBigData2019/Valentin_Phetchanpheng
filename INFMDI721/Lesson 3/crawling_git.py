@@ -41,12 +41,10 @@ def get_list_mean_stars(list_login):
 
         for repo in json_repo:
             sum_stars += repo['stargazers_count']
-
         if len(json_repo) == 0:
             mean_stars = 0
         else:
             mean_stars = sum_stars/len(json_repo)
-
         list_mean_stars.append(round(mean_stars,3))
 
     dico_user_mean_stars["Mean Stars"] = list_mean_stars
