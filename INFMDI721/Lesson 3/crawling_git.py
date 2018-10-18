@@ -27,7 +27,6 @@ def get_list_login(list_user):
 liste_login = get_list_login(liste_user)
 
 def get_list_mean_stars(list_login):
-
     url = "https://api.github.com/users/"
     list_mean_stars = []
     dico_user_mean_stars = {}
