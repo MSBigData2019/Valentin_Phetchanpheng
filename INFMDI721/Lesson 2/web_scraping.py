@@ -7,7 +7,7 @@ list_url = ["https://www.reuters.com/finance/stocks/financial-highlights/LVMH.PA
             "https://www.reuters.com/finance/stocks/financial-highlights/AIR.PA",
             "https://www.reuters.com/finance/stocks/financial-highlights/DANO.PA"]
 
-# On boucle sur la liste des URLs
+# On boucle sur la liste des URL
 for url in list_url:
     page = requests.get(url)
     soup = BeautifulSoup(page.content, "html.parser")
